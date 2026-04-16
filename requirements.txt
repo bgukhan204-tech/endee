@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+sentence-transformers
+rank_bm25
+pandas
+numpy
+python-multipart

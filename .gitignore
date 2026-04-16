@@ -24,9 +24,22 @@ data/*
 .vscode/
 .vscode/*
 
-# Frontend
-frontend/
-frontend/*
+# Top-level frontend (if any)
+/frontend/
+/frontend/*
+
+# Node modules (never commit these)
+node_modules/
+**/node_modules/
+
+# Python virtual environments
+.venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
 
 # DS Store
 .DS_Store
